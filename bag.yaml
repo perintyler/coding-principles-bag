@@ -1,0 +1,20 @@
+name: coding-principles
+description: How code is expected to read — naming, commenting, documenting, and testing principles
+
+# Prose only. These four principles lived in the barry monorepo's `principles/`
+# directory, reachable exclusively through four markdown links in AGENTS.md —
+# which meant they reached sessions started in that one working directory and
+# nowhere else. As instructions they travel with the bag instead of the
+# checkout.
+#
+# Every instruction here is on-demand: a session sees the one-line description
+# and fetches a body with get_instructions only when it is about to write the
+# kind of code the principle governs. naming.md alone is ~6.7KB, well past the
+# 6000-char always-on budget, and standing prose is a tax on every turn that
+# never asked for it.
+#
+# No `traits:` block, deliberately. Every bag gets a `<bag-name>` auto-trait,
+# and a manifest trait reusing that name REPLACES it rather than refining it.
+# The `coding` bag hit this and renamed its trait to `IC`; here there is
+# nothing to add, so the auto-trait is left to stand on its own. The `coding`
+# bag composes this one and its `IC` trait names these instructions.
