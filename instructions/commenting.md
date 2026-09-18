@@ -1,4 +1,5 @@
 ---
+name: coding-commenting
 description: Commenting principles — comments explain why, never what
 mode: on-demand
 ---

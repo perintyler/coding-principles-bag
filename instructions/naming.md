@@ -1,4 +1,5 @@
 ---
+name: coding-naming
 description: Naming principles — say what it is, not how it works; a good name removes the need for a comment
 mode: on-demand
 ---

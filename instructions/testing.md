@@ -1,4 +1,5 @@
 ---
+name: coding-testing
 description: Testing principles — test what the user sees, not how the code works
 mode: on-demand
 ---

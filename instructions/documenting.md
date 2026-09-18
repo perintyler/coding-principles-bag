@@ -1,4 +1,5 @@
 ---
+name: coding-documenting
 description: Documentation principles — the shortest doc that keeps the knowledge
 mode: on-demand
 ---
